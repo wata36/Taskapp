@@ -32,7 +32,7 @@
 <!--						<form action="TaskServlet" method="post">-->
 <!--							<input type="hidden" name="taskId" value="${task.taskId}">-->
 <!--							<input type="hidden" name="action" value="complete"> <input-->
-<!--								type="submit" value="完了">-->
+<!--							type="submit" value="完了">-->
 <!--						</form>-->
 					</c:if> <%--削除 --%>
 					<form action="TaskServlet" method="post">
