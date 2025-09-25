@@ -21,9 +21,9 @@
 
 		<h3>新しいタスクの追加</h3>
 		<form action="TaskServlet" method="post">
-			新しいタスク: <input type="text" name="tasks" class="text-box"> <input type="hidden"
-				name="action" value="add"> 
-				<input type="submit" value="追加" class="menu-btn">
+			新しいタスク: <input class="text-box" type="text" name="tasks">
+			 <input type="hidden" name="action" value="add"> 
+			 <input type="submit" value="追加" class="menu-btn">
 		</form>
 		<ul>
 			<c:forEach var="task" items="${taskList}">
